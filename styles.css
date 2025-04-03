@@ -1,0 +1,85 @@
+<!-- free-panels.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Panels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Free Free Fire Panels</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="paid-panels.html">Paid Panels</a></li>
+                <li><a href="free-panels.html">Free Panels</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Download Free Panels</h2>
+        <div class="panel">
+            <h3>Basic Panel</h3>
+            <p>Completely free to use</p>
+            <button>Download</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Free Fire Panel Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- styles.css -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+header {
+    background-color: #ff4500;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.panel {
+    background: #333;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+button {
+    background: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
